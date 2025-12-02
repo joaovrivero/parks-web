@@ -1,0 +1,77 @@
+/* Font Import - Must be first */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* CSS Custom Properties - ParksApp Design System */
+:root {
+  /* Brand Colors - Exact from Tailwind config */
+  --brand-50: #e6faf3;
+  --brand-100: #b3f0d9;
+  --brand-200: #80e6bf;
+  --brand-300: #4ddca5;
+  --brand-400: #35B385;
+  --brand-500: #1DDD96;  /* Primary */
+  --brand-600: #3F896E;
+  --brand-700: #3B5E52;
+  --brand-800: #293430;
+  --brand-900: #1f2826;
+
+  /* Accent Yellow */
+  --accent-500: #eab308;
+  --accent-400: #facc15;
+
+  /* Dark/Text Colors */
+  --dark-900: #0f172a;  /* Primary text */
+  --dark-800: #1e293b;
+  --dark-700: #334155;  /* Secondary text */
+  --dark-600: #475569;
+  --dark-500: #64748b;  /* Tertiary text */
+  --dark-400: #94a3b8;  /* Placeholder */
+  --dark-200: #e2e8f0;  /* Borders */
+  --dark-50: #f8fafc;   /* Light backgrounds */
+
+  /* White */
+  --white: #ffffff;
+
+  /* Glass Effects */
+  --glass-light: rgba(255, 255, 255, 0.7);
+  --glass-medium: rgba(255, 255, 255, 0.5);
+  --glass-dark: rgba(15, 23, 42, 0.7);
+
+  /* Shadows */
+  --shadow-soft: 0 2px 15px rgba(0, 0, 0, 0.08);
+  --shadow-soft-lg: 0 10px 40px rgba(0, 0, 0, 0.12);
+  --shadow-glow: 0 0 20px rgba(29, 221, 150, 0.3);
+  --shadow-glow-lg: 0 0 40px rgba(29, 221, 150, 0.4);
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;   /* 8px */
+  --spacing-sm: 0.75rem;  /* 12px */
+  --spacing-md: 1rem;     /* 16px */
+  --spacing-lg: 1.5rem;   /* 24px */
+  --spacing-xl: 2rem;     /* 32px */
+  --spacing-2xl: 3rem;    /* 48px */
+  --spacing-3xl: 4rem;    /* 64px */
+  --spacing-4xl: 5rem;    /* 80px */
+
+  /* Container */
+  --container-max-width: 1200px;
+  --container-padding: 1.5rem;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 350ms ease;
+
+  /* Z-index */
+  --z-base: 1;
+  --z-dropdown: 10;
+  --z-sticky: 100;
+  --z-fixed: 1000;
+  --z-modal: 10000;
+}
